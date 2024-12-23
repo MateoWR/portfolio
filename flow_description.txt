@@ -1,0 +1,36 @@
+
+ETL de Metas Presupuestarias - Flujo de Power Automate
+
+Descripción:
+Este flujo automatiza el proceso de ETL (Extracción, Transformación y Carga) para metas presupuestarias.
+El flujo está diseñado para extraer datos desde Microsoft Forms, transformarlos según las necesidades específicas y almacenarlos en Excel Online (Empresas).
+Está optimizado para usuarios de OneDrive y SharePoint y utiliza los conectores de Microsoft Forms y Excel Online.
+
+Estructura del Flujo:
+1. **Origen de Datos**:
+   - Los datos se recopilan mediante un formulario de Microsoft Forms.
+   - Conector: Microsoft Forms.
+
+2. **Transformación**:
+   - Los datos se procesan y organizan utilizando acciones intermedias dentro de Power Automate.
+
+3. **Carga**:
+   - Los resultados transformados se almacenan en un archivo Excel ubicado en OneDrive.
+   - Las hojas de cálculo se desprotegen y protegen dinámicamente para garantizar la integridad de los datos.
+
+Conectores Utilizados:
+- Microsoft Forms (Conector: shared_microsoftforms)
+- Excel Online (Empresas) (Conector: shared_excelonlinebusiness)
+
+Requerimientos:
+- Permisos de edición para los archivos involucrados.
+- La hoja 'Vista por Agencia' utiliza una contraseña para proteger y desproteger las acciones.
+
+Cómo Importar este Flujo:
+1. Descarga el archivo JSON proporcionado.
+2. Ve a Power Automate y selecciona la opción "Importar Flujo".
+3. Asegúrate de configurar las conexiones requeridas, como Microsoft Forms y Excel Online.
+4. Ajusta las rutas de los archivos en OneDrive o SharePoint según tu entorno.
+
+Propósito del Flujo:
+Este flujo es ideal para organizaciones que necesitan centralizar y automatizar la gestión de datos presupuestarios, mejorando la eficiencia y reduciendo los errores manuales.Se originó a pedido de poder combinar macros y la sincronicidad dentro de un archivo de Excel.
