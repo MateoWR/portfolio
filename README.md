@@ -1,14 +1,14 @@
-# Procesado de datos
+# Creando Soluciones
 
-Este repositorio contiene un flujo automatizado desarrollado en **Microsoft Power Automate**. El flujo se titula "Procesado de datos" y está diseñado para optimizar la gestión de información utilizando las integraciones de Microsoft Forms y Excel Online (Empresas).
+Este repositorio contiene un procesos de automatizacion desarrollados en **Microsoft Power Automate**. Los mismos están diseñados para optimizar la gestión de información utilizando las integraciones de Microsoft Forms y Excel Online (Empresas).
 
 ## Descripción
 
-El flujo automatiza el procesamiento de datos desde formularios de Microsoft Forms hacia hojas de cálculo de Excel Online, facilitando el almacenamiento y análisis de las respuestas. Es ideal para centralizar la información recolectada y realizar operaciones posteriores en la nube.
+Los flujo automatiza el procesamiento de datos desde formularios de Microsoft Forms hacia hojas de cálculo de Excel Online, facilitando el almacenamiento y análisis de las respuestas. Es ideal para centralizar la información recolectada y realizar operaciones posteriores.
 
 ## Conectores utilizados
 
-Este flujo utiliza los siguientes conectores de Microsoft Power Automate:
+Los flujos utilizan los siguientes conectores de Microsoft Power Automate:
 - **Microsoft Forms**: Recolecta las respuestas de formularios.
 - **Excel Online (Empresas)**: Almacena y organiza los datos en una hoja de cálculo.
 
@@ -39,7 +39,7 @@ Para utilizar este flujo, necesitas:
 
 ## Información adicional
 
-- **Nombre del flujo**: Procesado de datos
+- **Nombre de los flujos**: Procesado de datos y Procesos ETL metas preosupuestarias
 - **Creado por**: [Usuario](mailto:gonzalez.mateo@inta.gob.ar)
 - **Fecha de creación**: 25 de noviembre de 2024
 - **Conectores principales**:
